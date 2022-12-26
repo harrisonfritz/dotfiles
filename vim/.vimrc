@@ -1,0 +1,10 @@
+set autoindent
+set smartindent
+set bs=2
+set number
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set expandtab
+syntax enable
