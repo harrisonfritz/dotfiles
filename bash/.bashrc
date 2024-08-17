@@ -147,3 +147,4 @@ export EDITOR=vim
 tmux source-file ~/.tmux.conf
 tmux
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
