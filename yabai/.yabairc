@@ -3,7 +3,7 @@
 # the scripting-addition must be loaded manually if
 # you are running yabai on macOS Big Sur. Uncomment
 # the following line to have the injection performed
-# when the config is executed during startup.
+# when the cyabai -m space --focus 2onfig is executed during startup.
 #
 # for this to work you must configure sudo such that
 # it will be able to run the command without password
@@ -58,7 +58,7 @@ yabai -m rule --add title='Settings$' manage=off
 echo "yabai configuration loaded.."
 
 # Set all padding and gaps to 20pt (default: 0)
-yabai -m config top_padding    2
+yabai -m config top_padding    0
 yabai -m config bottom_padding 2
 yabai -m config left_padding   2
 yabai -m config right_padding  2
